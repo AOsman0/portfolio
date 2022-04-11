@@ -1,49 +1,35 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0%;
+  font-size: 10px;
+  background-color: black;
+}
+
+.header {
+  position: static;
+}
+
 .flex-container {
   display: flex;
-  margin: 20px;
   flex-direction: row;
-  align-content: center;
-  justify-content: space-evenly 100px;
   justify-content: space-between;
-  background: whitesmoke;
-  padding: 20px;
-  border-color: white
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 35px;
-  letter-spacing: 10px;
 }
 
-@media screen and (max-width: 596px) {
+.nav-link {
+  margin: 1.8rem;
+}
+.nav-link a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: darkgray;
+}
+
+@media screen and (max-width: 570px) {
   .flex-container {
     flex-direction: column;
-    align-items: center;
-    align-items: space-evenly a;
+    align-content: center;
   }
-}
-
-#about-me {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
-  margin: 25px;
-}
-
-.flex-item-1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  width: 250px;
-  height: 200x;
-  justify-content: space-around;
-  justify-content: space-evenly;
-  width: 250px;
-  height: 200px;
-  position: sticky;
-  height: 250px;
-  width: 200px;
-}
-body {
-  margin: 0ch;
-  background-color: black;
 }
