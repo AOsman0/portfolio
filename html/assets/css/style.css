@@ -1,29 +1,35 @@
 .flex-container {
-  display: contents;
   display: flex;
+  margin: 20px;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  justify-content: space-evenly;
-  background: rgb(104, 156, 20);
+  align-content: center;
+  justify-content: space-evenly 100px;
+  justify-content: space-between;
+  background: whitesmoke;
   padding: 20px;
-  border-color: darkblue;
-  border-style: solid;
+  border-color: white
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
+  font-size: 35px;
   letter-spacing: 10px;
 }
 
+@media screen and (max-width: 596px) {
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+    align-items: space-evenly a;
+  }
+}
+
 #about-me {
-  display: contents;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
+  margin: 25px;
 }
 
 .flex-item-1 {
-  display: contents;
   display: flex;
   flex-direction: row;
   justify-content: left;
@@ -39,4 +45,5 @@
 }
 body {
   margin: 0ch;
+  background-color: black;
 }
