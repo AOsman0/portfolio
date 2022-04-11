@@ -1,0 +1,42 @@
+.flex-container {
+  display: contents;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  background: rgb(104, 156, 20);
+  padding: 20px;
+  border-color: darkblue;
+  border-style: solid;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+
+#about-me {
+  display: contents;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.flex-item-1 {
+  display: contents;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  width: 250px;
+  height: 200x;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  width: 250px;
+  height: 200px;
+  position: sticky;
+  height: 250px;
+  width: 200px;
+}
+body {
+  margin: 0ch;
+}
