@@ -1,2 +1,0 @@
-# portfolio
-advanced css: portfolio
