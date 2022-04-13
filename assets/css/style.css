@@ -46,11 +46,20 @@ header {
   .flex-container {
     display: flex;
     flex-direction: column;
-    align-content: right;
+    align-items: center;
   }
-  /* fix this flex item for the media query */
+  .nav-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .image-flex-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
-
+/* About-Me */
 .about-me-container {
   display: flex;
   flex-direction: column;
@@ -58,7 +67,7 @@ header {
   align-content: space-around;
 }
 
-.flex-item-1 {
+.about-me-flex-1 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -71,6 +80,7 @@ header {
   color: grey;
   font-style: arial;
   padding: 5px;
+  text-align: center;
 }
 
 .statement-header {
@@ -103,7 +113,6 @@ header {
   align-content: center;
   text-align: center;
   color: grey;
-  margin-top: -19px;
   font-size: 2rem;
   font-family: Arial;
   text-decoration: underline;
@@ -120,7 +129,7 @@ header {
   padding-right: 1.8%;
   color: whitesmoke;
 }
-
+/* Project Cards */
 .projects-header {
   text-align: center;
   font-style: arial;
@@ -132,22 +141,83 @@ header {
   margin: 4rem;
   text-decoration: underline;
 }
-
-.image-flex-1 {
+.marketing-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-style: arial;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+}
+.image-flex-1-2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  object-fit: contain;
+  width: 100%;
+}
+.marketing-task-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+  color: whitesmoke;
+  letter-spacing: 2px;
+  text-indent: 45px;
+  line-height: 30px;
+  margin: 2rem;
+  font-size: 1rem;
 }
 .first-project-card {
-  border: whitesmoke;
+  border: 2rem;
   border-style: solid;
-  object-fit: fill;
+  border-color: black;
 }
 
-.header-flex-1 {
-  text-align: right;
-  font-size: 3rem;
+.second-card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  flex-wrap: wrap;
+  border: 12rem;
+  border-style: solid;
+  border-color: black;
 }
-.info-flex {
-  text-align: center;
+.image-flex-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.info-flex-2 {
+  text-align: left;
+  font-size: 2rem;
+  color: whitesmoke;
+  letter-spacing: 1px;
+  text-indent: -3px;
+  line-height: 30px;
+  margin: 1rem;
+}
+
+.header-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-style: arial;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin: 2px;
+  word-spacing: 1px;
+  line-height: 18px;
+}
+
+.third-card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
 }
