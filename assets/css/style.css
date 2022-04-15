@@ -6,6 +6,7 @@ html {
   font-size: 10px;
 }
 
+/* body css */
 body {
   margin: 0%;
   font-size: 10px;
@@ -16,6 +17,7 @@ body {
   color: white;
 }
 
+/* header css */
 header {
   position: static;
   top: 0%;
@@ -23,11 +25,13 @@ header {
   height: 100%;
 }
 
+
 .main {
   margin-top: 5.6rem;
 }
 
-.flex-container {
+/* nav container */
+.nav-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -43,17 +47,12 @@ header {
 }
 
 @media screen and (max-width: 570px) {
-  .flex-container {
+  .nav-container {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   .nav-link {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  .image-flex-2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -67,37 +66,22 @@ header {
   align-content: space-around;
 }
 
-.about-me-flex-1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: space-around;
-}
-
-.name {
+.about-me-name,.statement-header {
   margin: 2rem;
   font-size: 3rem;
-  color: grey;
+  color: grey
   font-style: arial;
   padding: 5px;
   text-align: center;
 }
 
 .statement-header {
-  text-align: center;
-  font-style: arial;
-  color: grey;
-  text-align: center;
   text-decoration: underline;
-  margin-top: -2px;
+  margin-top: 5px;
   font-size: 2rem;
-  font-family: Arial;
 }
 
-.statement-info-1 {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
+.statement-info{
   text-align: center;
   font-size: 2rem;
   color: whitesmoke;
@@ -108,29 +92,27 @@ header {
 }
 
 .skills {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  text-align: center;
-  color: grey;
-  font-size: 2rem;
-  font-family: Arial;
   text-decoration: underline;
+  font-size: 2rem;
+  margin: 0%;
 }
-.skill-set {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
+.skill-set,.skills {
   text-align: center;
   list-style-type: none;
   font-size: 2rem;
-  letter-spacing: 3px;
-  line-height: 60px;
-  padding-right: 1.8%;
+  letter-spacing: 4px;
+  line-height: 32px;
   color: whitesmoke;
+
 }
 /* Project Cards */
-.projects-header {
+
+.projects-header,.contact-header{
+  text-align: center;
+  font-size: 4rem;
+}
+
+.project-title{
   text-align: center;
   font-style: arial;
   font-size: 3rem;
@@ -141,83 +123,44 @@ header {
   margin: 4rem;
   text-decoration: underline;
 }
-.marketing-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-style: arial;
-  text-decoration: none;
-  color: rgb(0, 0, 0);
+
+.project-info {
+  text-align: center;
+  letter-spacing: 2px;
+  text-indent: 45px;
+  line-height: 30px;
+  margin: 2rem;
   font-size: 2rem;
 }
-.image-flex-1-2 {
+
+.project-image {
   display: flex;
   flex-direction: column;
   align-items: center;
   object-fit: contain;
   width: 100%;
 }
-.marketing-task-info {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+
+.first-project-card{
+  border-style: solid;
+  border-color: black;
+  border-width: 9px;
+}
+
+.all-other-projects{
+  border-style: solid;
+  border-color: black;
+  border-width: 30px;
+}
+
+/* Contact */
+.contact-icons{
   text-align: center;
-  font-size: 2rem;
-  color: whitesmoke;
-  letter-spacing: 2px;
-  text-indent: 45px;
-  line-height: 30px;
-  margin: 2rem;
-  font-size: 1rem;
-}
-.first-project-card {
-  border: 2rem;
-  border-style: solid;
-  border-color: black;
+  font-size: 25px;
 }
 
-.second-card-container {
-  display: flex;
-  flex-direction: row;
-  align-items: right;
-  flex-wrap: wrap;
-  border: 12rem;
-  border-style: solid;
-  border-color: black;
-}
-.image-flex-2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
+.footer-text{
+  text-align: center;
+  font-size: 20px;
 }
 
-.info-flex-2 {
-  text-align: left;
-  font-size: 2rem;
-  color: whitesmoke;
-  letter-spacing: 1px;
-  text-indent: -3px;
-  line-height: 30px;
-  margin: 1rem;
-}
-
-.header-2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-style: arial;
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  font-size: 2rem;
-  letter-spacing: 2px;
-  margin: 2px;
-  word-spacing: 1px;
-  line-height: 18px;
-}
-
-.third-card-container {
-  display: flex;
-  flex-direction: row;
-  align-items: left;
-}
