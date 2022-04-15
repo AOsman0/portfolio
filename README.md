@@ -21,7 +21,7 @@ Below are screenshots of desktop viewport.
 ![screenshot-3](./assets/images/screenshot-c.png)
 ![screenshot-4](./assets/images/screenshot-d.png)
 
-## Screenz-Recording
+## Screen-Recording
 
 Below is the screenrecording demonstrating a responsive layout.
 
