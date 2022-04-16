@@ -23,9 +23,9 @@ Below are screenshots of desktop viewport.
 
 ## Screen-Recording
 
-Below is the screenrecording demonstrating a responsive layout.
+Below is the screen recording demonstrating a responsive layout.
 
-![screen-recording](./assets/images/Screen%20Recording%202022-04-15%20at%2017.31.12.mov)
+https://drive.google.com/file/d/1iwe2eYYSQv1B7o-Sg0yio0DKhgjgEMZ-/view?usp=sharing
 
 ## Technology Used
 
