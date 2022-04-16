@@ -10,7 +10,7 @@ This task had involved creating my own professional portfolio. I wrote the HTML 
 
 This is the link to the github repository below.
 
-[here](https://github.com/AOsman0/portfolio/tree/dev)
+[here](https://aosman0.github.io/portfolio/)
 
 ## Screenshots
 
