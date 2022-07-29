@@ -1,3 +1,11 @@
+:root {
+  --midnight-blue: #03045eff;
+  --star-command-blue: #0077b6ff;
+  --pacific-blue: #00b4d8ff;
+  --middle-blue: #90e0efff;
+  --light-cyan: #caf0f8ff;
+}
+
 html {
   font-size: 10px;
 }
@@ -6,7 +14,7 @@ html {
 body {
   margin: 0%;
   font-size: 10px;
-  background-color: grey;
+  background-color: var(--midnight-blue);
   min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.2rem;
@@ -42,33 +50,49 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
 }
 
-.about-me-name {
+#about-me-name {
   font-size: 3rem;
   color: rgb(255, 255, 255);
   font-style: arial;
-  padding: 5px;
   text-align: center;
   line-height: 30px;
 }
+.about-me-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
 
-.statement-header {
-  text-decoration: underline;
-  margin-top: 5px;
+.skills {
   font-size: 2rem;
-  text-align: center;
-  line-height: 30px;
+}
+.skill-set {
+  display: inline;
+  padding: 0%;
 }
 
-.statement-info {
+.jumbotron {
+  background-color: var(--star-command-blue);
+}
+
+.icons-jumbo {
+  font-size: 5rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+#statement-info {
   text-align: center;
   font-size: 2rem;
   color: whitesmoke;
   letter-spacing: 2px;
   text-indent: 45px;
   line-height: 30px;
-  margin: 2rem;
+  padding: 2rem;
 }
 
 .skills {
@@ -87,74 +111,108 @@ header {
 }
 /* Project Cards */
 
-.projects-header,
-.contact-header {
+.card-title-1 {
   text-align: center;
   font-size: 4rem;
+  padding: 0;
+}
+.card {
+  color: whitesmoke;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
 }
 
-.project-title {
-  text-align: center;
-  font-style: arial;
-  font-size: 3rem;
-  padding: 5px;
-  color: rgb(0, 0, 0);
-  text-indent: 45px;
-  line-height: 30px;
-  margin: 4rem;
-  text-decoration: underline;
+#card {
+  background-color: var(--star-command-blue);
+  display: flex;
+  flex-wrap: wrap;
+  position: static;
+  margin: 0;
+  padding: 0;
 }
 
-.project-info {
-  text-align: center;
-  letter-spacing: 2px;
-  text-indent: 45px;
-  line-height: 30px;
-  margin: 2rem;
+#card-img {
+  background-color: var(--star-command-blue);
+  margin: 0rem;
+  padding: 0%;
+}
+
+.card-text {
+  letter-spacing: 1px;
+}
+h5 {
   font-size: 2rem;
 }
 
-.project-image {
+.right {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.card-img {
+  object-fit: contain;
+}
+
+.card-img-top {
+  max-width: 300px;
+  height: 300px;
+}
+
+.card-body {
+  background-color: var(--star-command-blue);
+  padding: 4px;
+}
+.left {
   display: flex;
   flex-direction: column;
   align-items: center;
-  object-fit: contain;
-  width: 100%;
 }
 
-.images {
-  width: 100%;
-  height: 200px;
-}
-.button {
-  border: 1px solid black;
-  width: 30px;
-  font-size: 20px;
+.card-body {
   text-align: center;
-  color: white;
-  background-color: black;
 }
 
-.button:hover {
-  background-color: rgb(255, 0, 0);
+.m-4 {
+  margin: 0% !important;
 }
 
-.first-project-card {
-  border-style: solid;
-  border-color: black;
-  width: 100%;
+.github-link {
+  align-content: center;
 }
 
-.all-other-projects {
+.row {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: row;
   justify-content: space-evenly;
+  margin-top: 1.5rem;
 }
 
-.project-card {
-  border: 2px solid rgb(214, 214, 214);
-  width: 100%;
+.projects-header {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 2.2rem;
+  background-color: var(--middle-blue);
+}
+
+.left-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.card-title-2 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.card-text-2 {
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+#second-phase {
+  background-color: var(--light-cyan);
 }
 
 #icons {
@@ -165,6 +223,13 @@ header {
 .contact-icons {
   text-align: center;
   font-size: 25px;
+}
+
+.contact-links {
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 3rem;
+  background-color: var(--middle-blue);
 }
 
 .footer-text {
@@ -193,4 +258,8 @@ header {
     margin: 0;
     width: 100%;
   }
+}
+#icon-cards {
+  text-align: center;
+  font-size: 3rem;
 }
