@@ -34,4 +34,4 @@ https://drive.google.com/drive/folders/1VJA5AuIqAGp-4xDT1WnaQAF_2yz9c05l?usp=sha
 - CSS
 - GitHub
 - Terminal
-  -BootStrap
+-BootStrap
