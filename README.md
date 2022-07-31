@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 
 advanced css: portfolio
 
@@ -35,3 +35,4 @@ https://drive.google.com/drive/folders/1VJA5AuIqAGp-4xDT1WnaQAF_2yz9c05l?usp=sha
 - GitHub
 - Terminal
   -BootStrap
+
