@@ -8,7 +8,7 @@ This task had involved creating my own professional portfolio. Using HTML,CSS an
 
 ## Deployed URL
 
-This is the link [here] (https://aosman0.github.io/portfolio/) to the deployed link of my portfolio.
+This is the link [here](https://aosman0.github.io/portfolio/) to the deployed link of my portfolio.
 
 ## Screenshots
 
